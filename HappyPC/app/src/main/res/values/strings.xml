@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HappyPC</string>
+    <string name="main_activity_pic">main_activiti_pic</string>
+    <string name="happy_pc">Happy PC Компьютерная Мастерская</string>
+    <string name="button1_info">о компании</string>
+    <string name="contacts">Контакты</string>
+    <string name="service">Услуги</string>
+    <string name="logopc">LogoPc</string>
+    <string name="aboutCompany">Компьютерная мастерская Happy PC занимается профессиональным обслуживанием компьютеров и другой вычислитенльной техники в городе Бишкек. Мы работаем как с частными лицами, так и с корпоративными клиентами. Штат сотрудников фирмы состоит только из мастеров своего дела. Наша команда предоставит вам по настоящему качественные услуги по ремонту и настройке компьютера!</string>
+    <string name="servisecInfo">\n-Ремонт компьютеров \n
+                                - Ремонт ноутбуков \n
+                                - Компьютерная помощь \n
+                                - Интернет и сети \n
+                                - Восстановление данных \n
+                                - Абонентское обслуживание \n
+                                - Апгрейд ноутбука \n
+                                - Сборка компьютера \n</string>
+    <string name="phone">05551346479764</string>
+    <string name="address">г.Бишкек Советская 375</string>
+    <string name="instagram">happypc_kg</string>
+
+</resources>
