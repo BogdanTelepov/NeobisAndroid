@@ -70,12 +70,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button_div:
 
                 result = num1 / num2;
+                if (num2 == 0) {
+                    result = 0;
+                }
                 break;
         }
 
+
     }
 
-    public void displayResult(View view){
+    public void displayResult(View view) {
         Intent intent = new Intent(this, ResultActivity.class);
         intent.putExtra("result", Float.toString(result));
         startActivity(intent);
