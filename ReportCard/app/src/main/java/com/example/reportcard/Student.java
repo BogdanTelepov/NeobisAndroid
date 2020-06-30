@@ -8,12 +8,12 @@ public class Student {
     private String subjectName1;
     private String subjectName2;
     private String subjectName3;
-    private int gradeSubject1;
-    private int gradeSubject2;
-    private int gradeSubject3;
+    private char gradeSubject1;
+    private String gradeSubject2;
+    private double gradeSubject3;
 
 
-    public Student(String name, int age, int numberOfCourse, String subjectName1, String subjectName2, String subjectName3, int gradeSubject1, int gradeSubject2, int gradeSubject3) {
+    public Student(String name, int age, int numberOfCourse, String subjectName1, String subjectName2, String subjectName3, char gradeSubject1, String gradeSubject2, double gradeSubject3) {
         this.name = name;
         this.age = age;
         this.numberOfCourse = numberOfCourse;
@@ -77,23 +77,23 @@ public class Student {
         return gradeSubject1;
     }
 
-    public void setGradeSubject1(int gradeSubject1) {
+    public void setGradeSubject1(char gradeSubject1) {
         this.gradeSubject1 = gradeSubject1;
     }
 
-    public int getGradeSubject2() {
+    public String getGradeSubject2() {
         return gradeSubject2;
     }
 
-    public void setGradeSubject2(int gradeSubject2) {
+    public void setGradeSubject2(String gradeSubject2) {
         this.gradeSubject2 = gradeSubject2;
     }
 
-    public int getGradeSubject3() {
+    public double getGradeSubject3() {
         return gradeSubject3;
     }
 
-    public void setGradeSubject3(int gradeSubject3) {
+    public void setGradeSubject3(double gradeSubject3) {
         this.gradeSubject3 = gradeSubject3;
     }
 
