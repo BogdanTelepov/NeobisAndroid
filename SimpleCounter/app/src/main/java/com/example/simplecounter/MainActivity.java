@@ -10,13 +10,29 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     int count = 0;
+    TextView textView;
+    Button countButton;
+    Button resetButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        textView = findViewById(R.id.text_view);
+        countButton = findViewById(R.id.count_button);
+        resetButton = findViewById(R.id.reset_button);
 
+    }
 
+    protected void onSaveInstanceState(Bundle outState) {
+
+        super.onSaveInstanceState(outState);
+        outState.putInt("string_count", count);
+    }
+
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        count = savedInstanceState.getInt("string_count");
     }
 
     @SuppressLint("DefaultLocale")
