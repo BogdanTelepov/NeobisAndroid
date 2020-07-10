@@ -19,6 +19,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.bogdan.tourguideapplication.R;
+import com.bumptech.glide.Glide;
 
 import java.util.List;
 
@@ -48,8 +49,10 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         title = listItemView.findViewById(R.id.title_text_view);
         assert currentPlace != null;
         title.setText(currentPlace.getPlaceTitle());
+
         image = listItemView.findViewById(R.id.image_view);
-        image.setImageResource(currentPlace.getPlaceImageResourceId());
+        Glide.with(image).load(currentPlace.getPlaceImageResourceId()).into(image);
+        //image.setImageResource(currentPlace.getPlaceImageResourceId());
         address = listItemView.findViewById(R.id.address_text_view);
         SpannableString addressString = new SpannableString(currentPlace.getPlaceAddress());
         addressString.setSpan(new StyleSpan(Typeface.BOLD_ITALIC), 0, addressString.length(), 0);
