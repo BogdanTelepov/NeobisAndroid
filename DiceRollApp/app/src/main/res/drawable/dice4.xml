@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220.000000dp"
+    android:height="219.000000dp"
+    android:viewportWidth="220.000000"
+    android:viewportHeight="219.000000">
+
+    <group
+        android:translateY="219.000000"
+        android:scaleX="0.100000"
+        android:scaleY="-0.100000">
+        <path
+            android:fillColor="#000000"
+            android:strokeWidth="1"
+            android:pathData="M316 2179 c-63 -15 -155 -69 -198 -118 -22 -25 -55 -75 -72 -111 l-31 -65 0 -790 0 -790 34 -70 c59 -119 164 -201 290 -225 33 -6 328 -10 770 -10 780 0 778 0 883 57 98 53 175 164 198 283 13 71 13 1439 0 1510 -30 160 -148 287 -305 329 -50 14 -1511 13 -1569 0z m1614 -90 c63 -30 132 -94 159 -148 40 -78 42 -127 39 -881 -3 -677 -4 -728 -22 -773 -25 -66 -105 -150 -174 -184 l-57 -28 -770 0 -770 0 -67 33 c-73 36 -123 86 -160 161 l-23 46 -3 767 c-2 752 -2 767 18 821 23 61 82 134 136 168 79 49 70 48 879 46 l760 -2 55 -26z" />
+        <path
+            android:fillColor="#000000"
+            android:strokeWidth="1"
+            android:pathData="M474 1889 c-108 -31 -189 -140 -188 -250 1 -68 16 -110 59 -164 49 -61 114 -90 200 -89 80 0 131 22 181 76 54 56 69 95 69 178 0 64 -4 82 -27 122 -63 106 -185 159 -294 127z" />
+        <path
+            android:fillColor="#000000"
+            android:strokeWidth="1"
+            android:pathData="M1579 1881 c-112 -44 -169 -125 -169 -242 0 -54 6 -77 28 -120 63 -121 220 -171 341 -109 117 60 172 209 121 328 -29 67 -96 127 -163 147 -65 19 -101 18 -158 -4z" />
+        <path
+            android:fillColor="#000000"
+            android:strokeWidth="1"
+            android:pathData="M435 786 c-93 -43 -147 -127 -148 -231 -2 -146 105 -254 254 -255 278 -1 358 367 104 486 -67 32 -143 32 -210 0z" />
+        <path
+            android:fillColor="#000000"
+            android:strokeWidth="1"
+            android:pathData="M1576 796 c-101 -38 -166 -133 -166 -245 0 -82 22 -133 80 -184 57 -52 97 -67 177 -67 136 0 238 93 250 229 10 109 -46 209 -142 256 -51 24 -148 30 -199 11z" />
+    </group>
+</vector>
